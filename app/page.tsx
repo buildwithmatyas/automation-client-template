@@ -1,3 +1,4 @@
+import LeadForm from "@/components/LeadForm";
 import Image from "next/image";
 
 export default function Home() {
@@ -33,7 +34,12 @@ export default function Home() {
 
         </div>
 
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+        {/* 👇 TADY JE TVŮJ FORM */}
+        <div className="w-full flex justify-center mt-10">
+          <LeadForm />
+        </div>
+
+        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row mt-10">
           
           <a
             className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-black px-5 text-white transition-colors hover:bg-zinc-800 md:w-[158px]"
