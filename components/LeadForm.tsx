@@ -10,7 +10,7 @@ export default function LeadForm() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
 
-    await fetch("https://buildwithmatyas.app.n8n.cloud/webhook/97142f29-b2b4-4cfd-aba1-1c65fc9ca874", {
+    await fetch("https://buildwithmatyas.app.n8n.cloud/webhook/a53a4430-1f6e-4083-b423-31aab2dfe391", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
